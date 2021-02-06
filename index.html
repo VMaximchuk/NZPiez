@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div id="headerPageMenu">
+        <div id="headerPageMenu" class="bg">
             <nav>
                 <ul>
                     <li><a href="#">Главная</a></li>
@@ -23,12 +23,44 @@
             </nav>
         </div>
         <div id="logo">
-
+            <a href="#"></a>
         </div>
-        <div id="headerPageBasket">
-            <div id="goodsList"></div>
-            <div id="recomList"></div>
-            <div id="button"><a href="#">Оформить заказ</a></div>
+        <div id="headerPageBasket" class="bg">
+            <div id="headerPageBasketContent">
+                <div id="itemsListBasket">
+                    <div class="item">
+                        <div id="photoItem"></div>
+                        <div id="descItem"></div>
+                        <div id="countButton">
+                            <div id="countItems"></div>
+                            <div id="addItems"></div>
+                            <div id="takeAwayItems"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="recomListBasket">
+                    <ul>
+                        <li>
+                            <a href="#">салаты</a>
+                        </li>
+                        <li>
+                            <a href="#">напитки</a>
+                        </li>
+                        <li>
+                            <a href="#">другое</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="totalBasket">
+                    <p>Сумма</p>
+                    <p>1300 руб.</p>
+                </div>
+                <div id="buttonBasket"><a href="#">Оформить заказ</a></div>
+            </div>
+        </div>
+        <div id="deliveryMenu">
+            <div id="pickUp"></div>
+            <div id="delivery"></div>
         </div>
     </header>
     <section class="page" id="pageHome">
@@ -38,6 +70,18 @@
     </section>
     <section class="page" id="pageAboutUs">
         <div class="content" id="pageContentAboutUs">
+            <div class="" id="previewHistoryAll">
+                <div class="" id="previewHistory">
+                    <div id="previewHistoryImg"></div>
+                    <p id="previewHistoryDesc"></p>
+                </div>
+            </div>
+            <div class="" id="mainViewHistoryAll">
+                <div class="" id="mainViewHistory">
+                    <div id="mainViewHistoryImg"></div>
+                    <p id="mainViewHistoryDesc"></p>
+                </div>
+            </div>
         </div>
     </section>
     <section class="page" id="pageGallery">
@@ -46,14 +90,60 @@
     </section>
     <section class="page" id="pageFood">
         <div class="content" id="pageContentFood">
+            <div class="promoFoodMod">
+                <div class="promo"></div>
+                <div class="navPromo"></div>
+            </div>
+            <div class="menuFoodMod">
+                <div class="navMenuFood"></div>
+                <div class="menuFoodLine">
+                    <div class="menuFood">
+                        <div class="menuFoodHeader">
+                            <div class="newItem"></div>
+                            <div class="foodCost"></div>
+                            <div class="buttonAdd"></div>
+                        </div>
+                        <div class="menuFoodBody">
+                            <div class="descItem"></div>
+                            <div class="photoItem"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </section>
     <section class="page" id="pageReviews">
         <div class="content" id="pageContentReviews">
+            <div class="listReviews">
+                <div class="review">
+                    <div class="clientPhoto"></div>
+                    <div class="bodyReview">
+                        <div class="clientName"></div>
+                        <div class="massage"></div>
+                    </div>
+                    <div class="buttonAllMassage"></div>
+
+                </div>
+            </div>
+            <div class="navListReviews"></div>
         </div>
     </section>
     <section class="page" id="pageContacts">
         <div class="content" id="pageContentContacts">
+            <div id="navCafes">
+                <div id="inAddress"></div>
+                <div id="inMap"></div>
+            </div>
+            <div id="cafes">
+                <div id="cafesAddress"></div>
+                <div id="cafesInMap"></div>
+            </div>
+            <div id="footerContacts">
+                <div id="listContacts"></div>
+                <div id="disclr"></div>
+            </div>
         </div>
     </section>
     <footer>
