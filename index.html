@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <div id="headerPageMenu" class="bg">
+        <div id="headerPageMenu" class="headerPages">
             <nav>
                 <ul>
                     <li><a href="#">Главная</a></li>
@@ -25,16 +25,28 @@
         <div id="logo">
             <a href="#"></a>
         </div>
-        <div id="headerPageBasket" class="bg">
+        <div id="headerPageBasket" class="headerPages">
             <div id="headerPageBasketContent">
                 <div id="itemsListBasket">
                     <div class="item">
                         <div id="photoItem"></div>
-                        <div id="descItem"></div>
+                        <div id="descItem">
+                            <p class="descItemHead">Название пирога</p>
+                            <p class="descItemBody">Пирог с говядиной в пиве с сыром Чеддер</p>
+                            <p class="descItemPrice">150 руб/шт.</p>
+                        </div>
                         <div id="countButton">
-                            <div id="countItems"></div>
-                            <div id="addItems"></div>
-                            <div id="takeAwayItems"></div>
+                            <div id="numbsItems">
+                                <p id="numb">4</p>
+                            </div>
+                            <div id="countItems">
+                                <div id="addItems">
+                                    <p id="add">▲</p>
+                                </div>
+                                <div id="takeAwayItems">
+                                    <p id="takeAway">▼</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,12 +67,75 @@
                     <p>Сумма</p>
                     <p>1300 руб.</p>
                 </div>
-                <div id="buttonBasket"><a href="#">Оформить заказ</a></div>
+                <div class="buttonOrder"><a href="#">Оформить заказ</a></div>
             </div>
         </div>
-        <div id="deliveryMenu">
-            <div id="pickUp"></div>
-            <div id="delivery"></div>
+        <div id="deliveryMenu" class="headerPages">
+            <div id="deliveryMenuNav">
+                <p class="pickUpButton">САМОВЫВОЗ</p>
+                <p class="deliveryButton">ДОСТАВКА</p>
+            </div>
+            <div id="pickUp">
+                <div>УСЛОВИЯ ДОСТАВКИ</div>
+                <div class="contact">
+                    <p>Контакты:</p>
+                    <div class="infoInput">
+                        <div><input type="text" size="40" value="Имя" class="contactIn"></div>
+                        <div><input type="text" size="40" value="Телефон" class="contactIn"></div>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="addressHeader">
+                        <p>Адрес самовывоза</p>
+                        <div>+</div>
+                    </div>
+                    <div class="addressInput">
+                        <div><input type="text" size="40" value="Город" class="addressIn"></div>
+                        <div><input type="text" size="40" value="Кафе" class="addressIn"></div>
+                    </div>
+                </div>
+                <div class="note">
+                    <p>Примечание к заказу:</p>
+                    <div><input type="text" size="40" value="Имя" class="noteInput"></div>
+                </div>
+                <div class="total">
+                    <div>
+                        <p>Способ оплаты</p>
+                    </div>
+                    <p>Итого к оплате</p>
+                </div>
+            </div>
+            <div id="delivery">
+                <div>УСЛОВИЯ ДОСТАВКИ</div>
+                <div class="contact">
+                    <p>Контакты:</p>
+                    <div class="infoInput">
+                        <div><input type="text" size="40" value="Имя" class="contactIn"></div>
+                        <div><input type="text" size="40" value="Телефон" class="contactIn"></div>
+                    </div>
+                </div>
+                <div class="address">
+                    <div class="addressHeader">
+                        <p>Адрес самовывоза</p>
+                        <div>+</div>
+                    </div>
+                    <div class="addressInput">
+                        <div><input type="text" size="40" value="Город" class="addressIn"></div>
+                        <div><input type="text" size="40" value="Кафе" class="addressIn"></div>
+                    </div>
+                </div>
+                <div class="note">
+                    <p>Примечание к заказу:</p>
+                    <div><input type="text" size="40" value="Имя" class="noteInput"></div>
+                </div>
+                <div class="total">
+                    <div>
+                        <p>Способ оплаты</p>
+                    </div>
+                    <p>Итого к оплате</p>
+                </div>
+            </div>
+            <div class="buttonOrder"><a href="#">Оформить заказ</a></div>
         </div>
     </header>
     <section class="page" id="pageHome">

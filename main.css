@@ -5,18 +5,36 @@
         font-family: Roboto;
     }
     
-    .bg {
+    .headerPages {
         background: linear-gradient(157.38deg, #FF7B01 20.03%, #FFA801 115.13%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .buttonOrder {
+        display: flex;
+        height: 45px;
+        width: 188px;
+        border-radius: 50px;
+        background-color: #282828;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .buttonOrder a {
+        text-decoration: none;
+        color: #FFF;
     }
     /*______________________headerPageMenu______________________*/
     
     #headerPageMenu {
         display: none;
-        justify-content: center;
-        align-items: center;
         color: #FFFFFF;
-        height: 100vh;
-        width: 100%;
     }
     
     #headerPageMenu nav {
@@ -53,11 +71,7 @@
     /*______________________headerPageBasket______________________*/
     
     #headerPageBasket {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        width: 100%;
+        display: none;
     }
     
     #headerPageBasketContent {
@@ -78,10 +92,78 @@
     
     .item {
         display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         background: linear-gradient(180deg, #FFFFFF 0%, #E0E0E0 100%);
         border-radius: 50px;
-        height: 45px;
+        height: 60px;
         width: 100%;
+    }
+    
+    .item p {
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        color: #485460;
+        text-align: center;
+    }
+    
+    #photoItem {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: black;
+    }
+    
+    #descItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        width: 175px;
+    }
+    
+    .descItemHead {
+        font-size: 12px;
+    }
+    
+    .descItemBody {
+        font-size: 10px;
+    }
+    
+    .descItemPrice {
+        font-size: 9px;
+    }
+    
+    #countButton {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: #FFF;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #countButton p {
+        color: #FFC048;
+        font-size: 15px;
+    }
+    
+    #numbsItems {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    
+    #countItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90%;
     }
     
     #recomListBasket {
@@ -123,23 +205,94 @@
         justify-content: space-between;
     }
     
-    #buttonBasket {
-        display: flex;
-        height: 45px;
-        width: 188px;
-        border-radius: 50px;
-        background-color: #FFFFFF;
-        justify-content: center;
-        align-items: center;
-        font-size: 18px;
-        font-weight: 700;
-    }
-    
     #buttonBasket:hover {
         box-shadow: 0px 4px rgba(0, 0, 0, 0.253);
     }
     
     #buttonBasket a {
-        color: #485460;
+        color: #FFF;
         text-decoration: none;
     }
+    /*______________________!headerPageBasket______________________*/
+    /*______________________deliveryMenu______________________*/
+    
+    #deliveryMenu {
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+    }
+    
+    #deliveryMenuNav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+        height: 30px;
+    }
+    
+    #pickUp {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    
+    .infoInput {
+        width: 315px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .contactIn {
+        width: 150px;
+        height: 40px;
+        border-radius: 35px;
+        border: none;
+    }
+    
+    .addressInput {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 315px;
+        height: 100px;
+    }
+    
+    .addressHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .addressIn {
+        width: 315px;
+        height: 40px;
+        border-radius: 35px;
+        border: none;
+    }
+    
+    .noteInput {
+        width: 315px;
+        height: 90px;
+        border-radius: 25px;
+        border: none;
+    }
+    
+    .total {
+        width: 315px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #delivery {
+        display: none;
+    }
+    /*______________________!deliveryMenu______________________*/
