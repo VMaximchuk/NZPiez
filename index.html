@@ -10,135 +10,144 @@
 
 <body>
     <header>
-        <div id="headerPageMenu" class="headerPages">
-            <nav>
-                <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Наша история</a></li>
-                    <li><a href="#">Галерея</a></li>
-                    <li><a href="#">Меню</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="logo">
-            <a href="#"></a>
-        </div>
-        <div id="headerPageBasket" class="headerPages">
-            <div id="headerPageBasketContent">
-                <div id="itemsListBasket">
-                    <div class="item">
-                        <div id="photoItem"></div>
-                        <div id="descItem">
-                            <p class="descItemHead">Название пирога</p>
-                            <p class="descItemBody">Пирог с говядиной в пиве с сыром Чеддер</p>
-                            <p class="descItemPrice">150 руб/шт.</p>
-                        </div>
-                        <div id="countButton">
-                            <div id="numbsItems">
-                                <p id="numb">4</p>
-                            </div>
-                            <div id="countItems">
-                                <div id="addItems">
-                                    <p id="add">▲</p>
+        <div id="headerNav">
+            <div id="headerMenuBlock">
+                <a href="#"><img src="/NZPiez/resources/menuMain.png" alt=""></a>
+                <div id="headerPageMenu" class="headerPages">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Наша история</a></li>
+                            <li><a href="#">Галерея</a></li>
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="logo">
+                <a href="#"><img src="/NZPiez/resources/new.png" alt=""></a>
+            </div>
+            <div id="headerBasketBlock">
+                <a href="#"><img src="/NZPiez/resources/basket.png" alt=""></a>
+                <div id="headerPageBasket" class="headerPages">
+                    <div id="headerPageBasketContent">
+                        <div id="itemsListBasket">
+                            <div class="item">
+                                <div id="photoItem"></div>
+                                <div id="descItem">
+                                    <p class="descItemHead">Название пирога</p>
+                                    <p class="descItemBody">Пирог с говядиной в пиве с сыром Чеддер</p>
+                                    <p class="descItemPrice">150 руб/шт.</p>
                                 </div>
-                                <div id="takeAwayItems">
-                                    <p id="takeAway">▼</p>
+                                <div id="countButton">
+                                    <div id="numbsItems">
+                                        <p id="numb">4</p>
+                                    </div>
+                                    <div id="countItems">
+                                        <div id="addItems">
+                                            <p id="add">▲</p>
+                                        </div>
+                                        <div id="takeAwayItems">
+                                            <p id="takeAway">▼</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div id="recomListBasket">
+                            <ul>
+                                <li>
+                                    <a href="#">салаты</a>
+                                </li>
+                                <li>
+                                    <a href="#">напитки</a>
+                                </li>
+                                <li>
+                                    <a href="#">другое</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="totalBasket">
+                            <p>Сумма</p>
+                            <p>1300 руб.</p>
+                        </div>
+                        <div class="buttonOrder"><a href="#">Оформить заказ</a></div>
                     </div>
                 </div>
-                <div id="recomListBasket">
-                    <ul>
-                        <li>
-                            <a href="#">салаты</a>
-                        </li>
-                        <li>
-                            <a href="#">напитки</a>
-                        </li>
-                        <li>
-                            <a href="#">другое</a>
-                        </li>
-                    </ul>
+                <div id="deliveryMenu" class="headerPages">
+                    <div id="deliveryMenuNav">
+                        <p class="pickUpButton">САМОВЫВОЗ</p>
+                        <p class="deliveryButton">ДОСТАВКА</p>
+                    </div>
+                    <div id="pickUp">
+                        <div>УСЛОВИЯ ДОСТАВКИ</div>
+                        <div class="contact">
+                            <p>Контакты:</p>
+                            <div class="infoInput">
+                                <div><input type="text" size="40" value="Имя" class="contactIn"></div>
+                                <div><input type="text" size="40" value="Телефон" class="contactIn"></div>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="addressHeader">
+                                <p>Адрес самовывоза</p>
+                                <div>+</div>
+                            </div>
+                            <div class="addressInput">
+                                <div><input type="text" size="40" value="Город" class="addressIn"></div>
+                                <div><input type="text" size="40" value="Кафе" class="addressIn"></div>
+                            </div>
+                        </div>
+                        <div class="note">
+                            <p>Примечание к заказу:</p>
+                            <div><input type="text" size="40" value="Имя" class="noteInput"></div>
+                        </div>
+                        <div class="total">
+                            <div>
+                                <p>Способ оплаты</p>
+                            </div>
+                            <p>Итого к оплате</p>
+                        </div>
+                    </div>
+                    <div id="delivery">
+                        <div>УСЛОВИЯ ДОСТАВКИ</div>
+                        <div class="contact">
+                            <p>Контакты:</p>
+                            <div class="infoInput">
+                                <div><input type="text" size="40" value="Имя" class="contactIn"></div>
+                                <div><input type="text" size="40" value="Телефон" class="contactIn"></div>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="addressHeader">
+                                <p>Адрес самовывоза</p>
+                                <div>+</div>
+                            </div>
+                            <div class="addressInput">
+                                <div><input type="text" size="40" value="Город" class="addressIn"></div>
+                                <div><input type="text" size="40" value="Кафе" class="addressIn"></div>
+                            </div>
+                        </div>
+                        <div class="note">
+                            <p>Примечание к заказу:</p>
+                            <div><input type="text" size="40" value="Примечание" class="noteInput"></div>
+                        </div>
+                        <div class="total">
+                            <div>
+                                <p>Способ оплаты</p>
+                            </div>
+                            <p>Итого к оплате</p>
+                        </div>
+                    </div>
+                    <div class="buttonOrder"><a href="#">Оформить заказ</a></div>
                 </div>
-                <div id="totalBasket">
-                    <p>Сумма</p>
-                    <p>1300 руб.</p>
-                </div>
-                <div class="buttonOrder"><a href="#">Оформить заказ</a></div>
             </div>
-        </div>
-        <div id="deliveryMenu" class="headerPages">
-            <div id="deliveryMenuNav">
-                <p class="pickUpButton">САМОВЫВОЗ</p>
-                <p class="deliveryButton">ДОСТАВКА</p>
-            </div>
-            <div id="pickUp">
-                <div>УСЛОВИЯ ДОСТАВКИ</div>
-                <div class="contact">
-                    <p>Контакты:</p>
-                    <div class="infoInput">
-                        <div><input type="text" size="40" value="Имя" class="contactIn"></div>
-                        <div><input type="text" size="40" value="Телефон" class="contactIn"></div>
-                    </div>
-                </div>
-                <div class="address">
-                    <div class="addressHeader">
-                        <p>Адрес самовывоза</p>
-                        <div>+</div>
-                    </div>
-                    <div class="addressInput">
-                        <div><input type="text" size="40" value="Город" class="addressIn"></div>
-                        <div><input type="text" size="40" value="Кафе" class="addressIn"></div>
-                    </div>
-                </div>
-                <div class="note">
-                    <p>Примечание к заказу:</p>
-                    <div><input type="text" size="40" value="Имя" class="noteInput"></div>
-                </div>
-                <div class="total">
-                    <div>
-                        <p>Способ оплаты</p>
-                    </div>
-                    <p>Итого к оплате</p>
-                </div>
-            </div>
-            <div id="delivery">
-                <div>УСЛОВИЯ ДОСТАВКИ</div>
-                <div class="contact">
-                    <p>Контакты:</p>
-                    <div class="infoInput">
-                        <div><input type="text" size="40" value="Имя" class="contactIn"></div>
-                        <div><input type="text" size="40" value="Телефон" class="contactIn"></div>
-                    </div>
-                </div>
-                <div class="address">
-                    <div class="addressHeader">
-                        <p>Адрес самовывоза</p>
-                        <div>+</div>
-                    </div>
-                    <div class="addressInput">
-                        <div><input type="text" size="40" value="Город" class="addressIn"></div>
-                        <div><input type="text" size="40" value="Кафе" class="addressIn"></div>
-                    </div>
-                </div>
-                <div class="note">
-                    <p>Примечание к заказу:</p>
-                    <div><input type="text" size="40" value="Имя" class="noteInput"></div>
-                </div>
-                <div class="total">
-                    <div>
-                        <p>Способ оплаты</p>
-                    </div>
-                    <p>Итого к оплате</p>
-                </div>
-            </div>
-            <div class="buttonOrder"><a href="#">Оформить заказ</a></div>
         </div>
     </header>
     <section class="page" id="pageHome">
+        <div id="fonPage"></div>
         <div class="content" id="pageContentHome">
             <p>Новозеландские пироги</p>
         </div>
@@ -146,9 +155,25 @@
     <section class="page" id="pageAboutUs">
         <div class="content" id="pageContentAboutUs">
             <div class="" id="previewHistoryAll">
-                <div class="" id="previewHistory">
+                <div class="previewHistory">
                     <div id="previewHistoryImg"></div>
-                    <p id="previewHistoryDesc"></p>
+                    <p id="previewHistoryDesc">Часть 1</p>
+                </div>
+                <div class="previewHistory">
+                    <div id="previewHistoryImg"></div>
+                    <p id="previewHistoryDesc">Часть 2</p>
+                </div>
+                <div class="previewHistory">
+                    <div id="previewHistoryImg"></div>
+                    <p id="previewHistoryDesc">Часть 3</p>
+                </div>
+                <div class="previewHistory">
+                    <div id="previewHistoryImg"></div>
+                    <p id="previewHistoryDesc">Часть 4</p>
+                </div>
+                <div class="previewHistory">
+                    <div id="previewHistoryImg"></div>
+                    <p id="previewHistoryDesc">Часть 5</p>
                 </div>
             </div>
             <div class="" id="mainViewHistoryAll">
