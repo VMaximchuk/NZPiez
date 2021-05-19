@@ -12,7 +12,7 @@
     <header>
         <div id="headerNav">
             <div id="headerMenuBlock">
-                <a href="#"><img src="/NZPiez/resources/menuMain.png" alt=""></a>
+                <a href="#" id="menuButton"><img src="/NZPiez/resources/menuMain.png" alt=""></a>
                 <div id="headerPageMenu" class="headerPages">
                     <nav>
                         <ul>
@@ -179,7 +179,7 @@
             <div class="" id="mainViewHistoryAll">
                 <div class="" id="mainViewHistory">
                     <div id="mainViewHistoryImg"></div>
-                    <p id="mainViewHistoryDesc"></p>
+                    <p id="mainViewHistoryDesc">Однажды в далеком 2011 году Оксана поехала в Новую Зеландию.</p>
                 </div>
             </div>
         </div>
@@ -190,27 +190,37 @@
     </section>
     <section class="page" id="pageFood">
         <div class="content" id="pageContentFood">
-            <div class="promoFoodMod">
-                <div class="promo"></div>
-                <div class="navPromo"></div>
+            <div id="promoFoodMod">
+                <div id="promo"></div>
+                <div id="navPromo">
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                </div>
             </div>
             <div class="menuFoodMod">
-                <div class="navMenuFood"></div>
-                <div class="menuFoodLine">
-                    <div class="menuFood">
-                        <div class="menuFoodHeader">
+                <div class="navMenuFood">
+                    <p>Пироги</p>
+                    <p>Наборы</p>
+                    <p>Салаты</p>
+                    <p>Напитки</p>
+                </div>
+                <div class="menuFoodList">
+                    <div class="menuItem">
+                        <div class="menuItemHeader">
                             <div class="newItem"></div>
-                            <div class="foodCost"></div>
-                            <div class="buttonAdd"></div>
+                            <div class="foodCost">Пирог 189г / 189руб</div>
+                            <div class="buttonAdd">+</div>
                         </div>
-                        <div class="menuFoodBody">
-                            <div class="descItem"></div>
+                        <div class="menuItemBody">
+                            <div class="descItem">
+                                Тунц тунц тунц 60 Тунц тунц 50 тунц 90
+                            </div>
                             <div class="photoItem"></div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
@@ -224,7 +234,6 @@
                         <div class="massage"></div>
                     </div>
                     <div class="buttonAllMassage"></div>
-
                 </div>
             </div>
             <div class="navListReviews"></div>
@@ -232,33 +241,46 @@
     </section>
     <section class="page" id="pageContacts">
         <div class="content" id="pageContentContacts">
-            <div id="navCafes">
-                <div id="inAddress"></div>
-                <div id="inMap"></div>
-            </div>
-            <div id="cafes">
-                <div id="cafesAddress"></div>
-                <div id="cafesInMap"></div>
+            <div id="pageCafe">
+                <div id="navCafes">
+                    <div id="inAddress">КАФЕ</div>
+                    <div id="inMap">НА КАРТЕ</div>
+                </div>
+                <div id="cafes">
+                    <div id="cafesAddress">
+                        <div class="imgCafe"></div>
+                        <div class="cafeAddres">
+                            ул. Свердлова, 8 Центр Режим работы: с 8:00 до 20:00 ежедневно тел. 94-00-54
+                        </div>
+                    </div>
+                    <div id="cafesInMap">
+                        <div class="map"></div>
+                    </div>
+                </div>
             </div>
             <div id="footerContacts">
-                <div id="listContacts"></div>
-                <div id="disclr"></div>
+                <div id="listContacts">
+                    <div class="soc"></div>
+                    <div class="soc"></div>
+                    <div class="soc"></div>
+                    <div class="soc"></div>
+                    <div class="soc"></div>
+                    <div class="soc"></div>
+                </div>
+                <div id="disclr">
+                    ВЕСЬ КОНТЕНТ ПРИНАДЛЕЖИТ ПИРОГОВОЙ "НОВОЗЕЛАНДСКИЕ ПИРОГИ" Пожалуйста, цените наш труд и не копируйте материалы без спроса.
+                </div>
             </div>
         </div>
     </section>
     <footer>
-        <ul>
-            <li>
-                <a href="#"></a>
-            </li>
-            <li>
-                <a href="#"></a>
-            </li>
-            <li>
-                <a href="#"></a>
-            </li>
-        </ul>
+        <div>a</div>
+        <div>b</div>
+        <div>c</div>
     </footer>
+
+    <script src="/NZPiez/js/button.js">
+    </script>
 </body>
 
 </html>

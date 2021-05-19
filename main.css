@@ -1,18 +1,26 @@
 @import "/NZPiez/css/normalize.css";
 @import "/NZPiez/css/headerStyle.css";
+@import "/NZPiez/css/pageHome.css";
+@import "/NZPiez/css/pageAboutUs.css";
+@import "/NZPiez/css/pageFood.css";
+@import "/NZPiez/css/pageReviews.css";
+@import "/NZPiez/css/footerContacts.css";
 body {
     margin: 0;
+    margin-left: 40%;
     padding: 0;
+    width: 350px;
     font-family: Roboto;
+    overflow-x: hidden;
 }
 
 .page {
     background: linear-gradient(157.38deg, #FF7B01 20.03%, #FFA801 115.13%);
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
-    width: 100%;
+    width: 350px;
 }
 
 .content {
@@ -22,83 +30,27 @@ body {
     align-items: flex-start;
 }
 
-
-/*______________________PageHome______________________*/
-
-#pageHome {
-    width: 100%;
-    height: 100vh;
+#pageGallery {
     display: none;
-    justify-content: center;
-    align-items: center;
-    background-image: url("/NZPiez/resources/img/pie1.jpg");
-    background-repeat: no-repeat;
-    background-position: -470px;
-    background-size: cover;
 }
 
-#fonPage {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.30);
-    z-index: 0;
-}
 
-#pageContentHome {
+/*--------------------------footer----------------------------*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
 }
 
-#pageContentHome p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #fff;
-    font-weight: bold;
-    font-size: 36px;
-    text-align: right;
-}
-
-
-/*______________________!PageHome______________________*/
-
-
-/*______________________PageAboutUs______________________*/
-
-#pageContentAboutUs {
-    height: 100vh;
-    flex-direction: column;
-}
-
-#previewHistoryAll {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 425px;
-    height: 75px;
-}
-
-.previewHistory {
-    display: flex;
-    flex-direction: column;
-    width: 75px;
-    height: 75px;
-}
-
-#previewHistoryImg {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+footer div {
+    width: 25px;
+    height: 25px;
     background-color: #fff;
 }
 
-#previewHistoryDesc {
-    padding: 0%;
-    margin: 0%;
-    color: #fff;
-    font-size: 15px;
-}
 
-
-/*______________________!PageAboutUs______________________*/
+/*--------------------------!footer---------------------------*/
